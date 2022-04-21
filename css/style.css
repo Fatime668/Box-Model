@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    background-image: url(../image/nature-photo.jpg);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-model{
+    width: 50%;
+    margin:20px auto;
+    position: relative;
+}
+span{
+    position: absolute;
+}
+.margin{
+    border: 50px solid #FFA500;
+    display: inline-block;
+}
+.border{
+    border: 50px solid #FFFF00;
+}
+.padding{
+    border: 50px solid #ADFF2F;
+}
+.content{
+    border-top: 50px solid #ADD8E6;
+}
+.content{
+    border-bottom: 50px solid #ADD8E6;
+}
